@@ -29,54 +29,54 @@ void loop() {
 }
 
 void right(int time){
-  digitalWrite(right_pin, HIGH);
+  digitalWrite(right_pin, LOW);
   delay(time);
 }
 
 void left(int time){
-  digitalWrite(left_pin, HIGH);
+  digitalWrite(left_pin, LOW);
   delay(time);
 }
 
 void forward(int time){
-  digitalWrite(forward_pin, HIGH);
+  digitalWrite(forward_pin, LOW);
   delay(time);
 }
 
 void reverse(int time){
-  digitalWrite(reverse_pin, HIGH);
+  digitalWrite(reverse_pin, LOW);
   delay(time);
 }
 
 void forward_right(int time){
-  digitalWrite(forward_pin, HIGH);
-  digitalWrite(right_pin, HIGH);
+  digitalWrite(forward_pin, LOW);
+  digitalWrite(right_pin, LOW);
   delay(time);
 }
 
 void reverse_right(int time){
-  digitalWrite(reverse_pin, HIGH);
-  digitalWrite(right_pin, HIGH);
+  digitalWrite(reverse_pin, LOW);
+  digitalWrite(right_pin, LOW);
   delay(time);
 }
 
 void forward_left(int time){
-  digitalWrite(forward_pin, HIGH);
-  digitalWrite(left_pin, HIGH);
+  digitalWrite(forward_pin, LOW);
+  digitalWrite(left_pin, LOW);
   delay(time);
 }
 
 void reverse_left(int time){
-  digitalWrite(reverse_pin, HIGH);
-  digitalWrite(left_pin, HIGH);
+  digitalWrite(reverse_pin, LOW);
+  digitalWrite(left_pin, LOW);
   delay(time);
 }
 
 void reset(){
-  digitalWrite(right_pin, LOW);
-  digitalWrite(left_pin, LOW);
-  digitalWrite(forward_pin, LOW);
-  digitalWrite(reverse_pin, LOW);
+  digitalWrite(right_pin, HIGH);
+  digitalWrite(left_pin, HIGH);
+  digitalWrite(forward_pin, HIGH);
+  digitalWrite(reverse_pin, HIGH);
 }
 
 int ascii_to_num(int ascii)
