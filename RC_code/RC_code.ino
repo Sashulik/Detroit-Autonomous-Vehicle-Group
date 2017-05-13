@@ -3,6 +3,8 @@ int right_pin = 6;
 int left_pin = 7;
 int forward_pin = 10;
 int reverse_pin = 9;
+int previous_command = 0;
+bool valid_command = true;
 
 // duration for output
 int time = 50;
@@ -79,32 +81,54 @@ void reset(){
   digitalWrite(reverse_pin, HIGH);
 }
 
+
+void print_command(int intcommand)
+{
+  if(previous_command != intcommand)
+  {
+    if(!valid_command)
+    {
+      Serial.print("Invalid command: ");
+    }
+    Serial.println(intcommand);
+  }
+  
+}
+
+
 int ascii_to_num(int ascii)
 {
-  return ascii - 48;
+//  return ascii - 48;
+  return ascii;
 }
 
 void send_command(int command, int time){
+
+  // keep track of the commands and output if it has been updated
   int intcommand = ascii_to_num(command);
-  Serial.println(intcommand);
+  print_command(intcommand);
+  previous_command = intcommand;
+
+
+  // send the command to the vehicle
   switch (intcommand){
 
      //reset command
      case 0: reset(); break;
 
      // single command
-     case 1: forward(time); break;
-     case 2: reverse(time); break;
-     case 3: right(time); break;
-     case 4: left(time); break;
+     case 1: forward(time); valid_command=true; break;
+     case 2: reverse(time); valid_command=true; break;
+     case 3: right(time); valid_command=true; break;
+     case 4: left(time); valid_command=true; break;
 
      //combination command
-     case 6: forward_right(time); break;
-     case 7: forward_left(time); break;
-     case 8: reverse_right(time); break;
-     case 9: reverse_left(time); break;
+     case 6: forward_right(time); valid_command=true; break;
+     case 7: forward_left(time); valid_command=true; break;
+     case 8: reverse_right(time); valid_command=true; break;
+     case 9: reverse_left(time); valid_command=true; break;
 
-     default: Serial.print("Inalid Command \n");
+     default: valid_command=false; print_command(intcommand);
 
     }
 }
