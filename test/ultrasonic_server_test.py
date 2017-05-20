@@ -5,10 +5,19 @@ import time
 
 
 class SensorStreamingTest(object):
+
+    def get_ip_address(self):
+        s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+        s.connect(("8.8.8.8", 80))
+        return s.getsockname()[0]
+
+
     def __init__(self):
 
         self.server_socket = socket.socket()
-        self.server_socket.bind(('10.100.10.232', 8002))
+        self.ip_address = self.get_ip_address()
+        print("Binding to IP: {}:{}".format(self.ip_address, 8002))
+        self.server_socket.bind(self.ip_address, 8002))
         self.server_socket.listen(0)
         self.connection, self.client_address = self.server_socket.accept()
         self.streaming()
