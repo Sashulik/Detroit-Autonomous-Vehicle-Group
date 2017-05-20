@@ -17,7 +17,7 @@ class VideoStreamingTest(object):
         self.server_socket = socket.socket()
         self.ip_address = self.get_ip_address()
         print("Binding to IP: {}:{}".format(self.ip_address, 8000))
-        self.server_socket.bind(self.ip_address, 8000)
+        self.server_socket.bind((self.ip_address, 8000))
         self.server_socket.listen(0)
         self.connection, self.client_address = self.server_socket.accept()
         self.connection = self.connection.makefile('rb')
