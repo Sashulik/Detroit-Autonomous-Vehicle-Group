@@ -3,6 +3,7 @@ __author__ = 'zhengwang'
 import numpy as np
 import cv2
 import socket
+import time
 
 
 class VideoStreamingTest(object):
@@ -45,11 +46,12 @@ class VideoStreamingTest(object):
                     image = cv2.imdecode(np.fromstring(jpg, dtype=np.uint8), cv2.IMREAD_UNCHANGED)
                     # try:
                     cv2.imshow('image', image)
+                    
                     # except:
                     #     cv2.imwrite('im'+str(i)+".jpg", image)
                     #     i+=1
-                    # if cv2.waitKey(1) & 0xFF == ord('q'):
-                    #     break
+                    if cv2.waitKey(1) & 0xFF == ord('q'):
+                        break
         finally:
             self.connection.close()
             self.server_socket.close()
