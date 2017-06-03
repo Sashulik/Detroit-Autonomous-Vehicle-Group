@@ -25,12 +25,12 @@ class SensorStreamingTest(object):
     def streaming(self):
 
         try:
-            print "Connection from: ", self.client_address
+            print("Connection from: ", self.client_address)
             start = time.time()
 
             while True:
                 sensor_data = float(self.connection.recv(1024))
-                print "Distance: %0.1f cm" % sensor_data
+                print ("Distance: %0.1f cm" % sensor_data)
 
                 # testing for 10 seconds
                 if time.time() - start > 10:
