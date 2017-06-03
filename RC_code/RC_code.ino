@@ -98,8 +98,8 @@ void print_command(int intcommand)
 
 int ascii_to_num(int ascii)
 {
-//  return ascii - 48;
-  return ascii;
+  return ascii - 48;
+//  return ascii;
 }
 
 void send_command(int command, int time){
@@ -113,6 +113,7 @@ void send_command(int command, int time){
   // send the command to the vehicle
   switch (intcommand){
 
+     Serial.print(intcommand);
      //reset command
      case 0: reset(); break;
 
@@ -127,7 +128,6 @@ void send_command(int command, int time){
      case 7: forward_left(time); valid_command=true; break;
      case 8: reverse_right(time); valid_command=true; break;
      case 9: reverse_left(time); valid_command=true; break;
-
      default: valid_command=false; print_command(intcommand);
 
     }
