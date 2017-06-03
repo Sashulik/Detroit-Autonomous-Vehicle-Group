@@ -1,0 +1,18 @@
+name: DAVG
+channels:
+- menpo
+- cogsci
+- defaults
+dependencies:
+- pygame=1.9.2a0=py35_0
+- mkl=2017.0.1=0
+- numpy=1.12.1=py35_0
+- pip=9.0.1=py35_1
+- pyserial=2.7=py35_0
+- python=3.5.3=3
+- setuptools=27.2.0=py35_1
+- vs2015_runtime=14.0.25123=0
+- wheel=0.29.0=py35_0
+- opencv3=3.1.0=py35_0
+prefix: C:\Users\LappySappy\Miniconda3\envs\DAVG
+
