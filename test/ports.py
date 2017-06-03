@@ -1,11 +1,9 @@
-#  Copied from https://stackoverflow.com/questions/12090503/listing-available-com-ports-with-python
-
 import sys
 import glob
 import serial
 
-
-def serial_ports():
+#  Copied from https://stackoverflow.com/questions/12090503/listing-available-com-ports-with-python
+def get_serial_ports():
     """ Lists serial port names
 
         :raises EnvironmentError:
@@ -32,8 +30,3 @@ def serial_ports():
         except (OSError, serial.SerialException):
             pass
     return result
-
-
-
-if __name__ == '__main__':
-    print(serial_ports())

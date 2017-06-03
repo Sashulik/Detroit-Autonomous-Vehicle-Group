@@ -4,16 +4,37 @@ import time
 import serial
 import pygame
 from pygame.locals import *
-
+from ports import get_serial_ports
 
 class RCTest(object):
 
     def __init__(self):
+        ports = get_serial_ports()
+        self.ser = self.select_port(ports)
         pygame.init()
         screen = pygame.display.set_mode((400, 300))
-        self.ser = serial.Serial('/dev/cu.usbmodem1421', 115200, timeout=1)
         self.send_inst = True
         self.steer()
+
+    def select_port(self, port_list):
+        # remove known ports that might get in the way
+        for p in port_list:
+            if 'bluetooth' in p.lower():
+                port_list.remove(p)
+                
+        if len(port_list) == 1:
+            print("connecting to", port_list[0])
+            return serial.Serial(port_list[0], 115200, timeout=1)
+
+        print("Multiple ports detected:")
+        i = 0
+        for port in port_list:    
+            print(i,port)
+            i+=1
+        selected = int(input("please select the port you would like: "))
+        print("you selected",selected, "(",port_list[selected],")")
+        return serial.Serial(port_list[selected], 115200, timeout=1)
+
 
     def steer(self):
 
