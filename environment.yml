@@ -14,5 +14,3 @@ dependencies:
 - vs2015_runtime=14.0.25123=0
 - wheel=0.29.0=py35_0
 - opencv3=3.1.0=py35_0
-prefix: C:\Users\LappySappy\Miniconda3\envs\DAVG
-
