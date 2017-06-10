@@ -10,16 +10,47 @@ After you clone/unzip the repo, type the following commands (without the single 
 4. Activate the DAVG environment:
   * linux/MAC OS X - 'source activate DAVG'
   * Windows - 'activate DAVG'
-  
-5. Connect the Arduino via USB.
-6. On your PC (Windows), go to Device Manager, choose Ports (COM & LPT), then verify that the USB Serial Device (COM4) is present.
+
+More information in the link https://conda.io/docs/using/envs.html
+
+### Verify Arduino set-up
+
+1. Connect the Arduino via USB.
+2. On your PC (Windows), go to Device Manager, choose Ports (COM & LPT), then verify that the USB Serial Device (COM4) is present.
  If not, go to the Arduino web site and download and install the driver: (https://www.arduino.cc/)
 
-7. On your PC, navigate to the "test" folder of the DAVG repo. Run the rc_control_test.py test script:
+### Raspberry PI WiFi (first time)
+
+1. Connect the Raspberry PI to a display over HDMI and a Bluetooth mouse and keyboard.
+2. Go to the network settings
+   - Edit the computer name to 'DAVG-pi' (or whatever name you prefer, but DAVG-pi will be used in this document).
+3. Reboot the Raspberry Pi to apply the settings.
+4. Go to the WiFi settings and connect to the appropriate WiFi network.
+
+### Connect to the Raspberry Pi via ssh
+
+1. After the Raspberry Pi is connected to the wifi, it can be logged in over SSH.
+2. Use your favorite SSH client (OpenSSH ssh client, PuTTY, etc.) to connect to 'DAVG-pi' or 'DAVG-pi.local' as necessary.
+3. Log in (default credentials):
+
+```
+    Username: pi
+    Password: raspberry
+```
+For example:
+    ```ssh pi@DAVG-pi.local```
+
+### Test the steering controls
+
+1. On your PC, navigate to the "test" folder of the DAVG repo. Run the rc_control_test.py test script:
   python rc_control_test.py
 
 If only one com port is available, it will be automatically seleted. If there are more than one available, you will be prompted to select the appropriate one.
 
-8. A pygame window should appear. In order to steer with the keyboard, the pygame window must be in the forefront. Only the arrow keys work. You should hear relays clicking when working properly.
+2. A pygame window should appear. In order to steer with the keyboard, the pygame window must be in the forefront. Only the arrow keys work. You should hear relays clicking when working properly.
 
-More information in the link https://conda.io/docs/using/envs.html
+### Test the video streaming
+
+1. On the PC you want to view the vide on, run the stream_server_test.py script to start listening.
+2. On the Raspberry Pi in the project directory, edit the stream_client.py file to use the IP address of the computer listening for the video connection.
+3. Run the stream_client.py script to start sending the video. 
