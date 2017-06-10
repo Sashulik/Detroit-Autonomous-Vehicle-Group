@@ -43,7 +43,10 @@ For example:
 ### Test the steering controls
 
 1. On your PC, navigate to the "test" folder of the DAVG repo. Run the rc_control_test.py test script:
-  python rc_control_test.py
+
+```
+    python rc_control_test.py
+```
 
 If only one com port is available, it will be automatically seleted. If there are more than one available, you will be prompted to select the appropriate one.
 
