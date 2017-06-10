@@ -1,6 +1,6 @@
 # Detroit-Autonomous-Vehicle-Group
 
-#Parts list - https://drive.google.com/open?id=1rJUV1Xg7-EJLgoVNzJ8M3K0WNBrbt-y9PRHQp5m-xXc
+# Parts list - https://drive.google.com/open?id=1rJUV1Xg7-EJLgoVNzJ8M3K0WNBrbt-y9PRHQp5m-xXc
 
 ## Steps to add and activate conda environment on your wndows/linux/Mac OS
 
