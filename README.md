@@ -44,7 +44,7 @@ For example:
 
 ### Test the steering controls
 
-1. On your PC, navigate to the "test" folder of the DAVG repo. Run the rc_control_test.py test script:
+1. On your PC, navigate to the "server-controller/test" folder of the DAVG repo. Run the rc_control_test.py test script:
 
 ```
     python rc_control_test.py
@@ -56,6 +56,6 @@ If only one com port is available, it will be automatically seleted. If there ar
 
 ### Test the video streaming
 
-1. On the PC you want to view the vide on, run the stream_server_test.py script to start listening.
+1. On the PC you want to view the vide on, run the `stream_server_test.py` script in "server-controller/tests" to start listening.
 2. On the Raspberry Pi in the project directory, edit the stream_client.py file to use the IP address of the computer listening for the video connection.
 3. Run the stream_client.py script to start sending the video. 
