@@ -2,7 +2,7 @@
 
 # Parts list - https://drive.google.com/open?id=1rJUV1Xg7-EJLgoVNzJ8M3K0WNBrbt-y9PRHQp5m-xXc
 
-## Steps to add and activate conda environment on your wndows/linux/Mac OS
+## Steps to add and activate conda environment on your Windows/linux/Mac OS
 
 After you clone/unzip the repo, type the following commands (without the single quotes) in your terminal/command prompt to import and verify the conda environment. Make sure you install miniconda first on your PC. To do that please follow the steps in the link https://conda.io/docs/install/quick.html
 
