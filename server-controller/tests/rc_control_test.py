@@ -1,4 +1,4 @@
-__author__ = 'zhengwang'
+__author__ = 'Kamal, Mike, Mochan'
 
 import time
 import serial
