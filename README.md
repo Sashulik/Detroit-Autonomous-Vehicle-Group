@@ -46,6 +46,10 @@ For example:
 
 ```
     python rc_control_test.py
+    For linux you must give permissions to the serial ports first. Insturctions below:
+     Step 1: Determine com port (ls /dev/tty* with USB plugged in; then unplug the USB and re-run the code. This will show you which port is turning on and off and that is the port you need to connect to. Most likely it will be /dev/ttyACM0)
+     Step 2: Run the following command - "sudo chmod 666 /dev/ttyACM0" (this should be the com port)
+      
 ```
 
 If only one com port is available, it will be automatically seleted. If there are more than one available, you will be prompted to select the appropriate one.
@@ -57,3 +61,6 @@ If only one com port is available, it will be automatically seleted. If there ar
 1. On the PC you want to view the vide on, run the `stream_server_test.py` script in "server-controller/tests" to start listening.
 2. On the Raspberry Pi in the project directory, edit the stream_client.py file to use the IP address of the computer listening for the video connection.
 3. Run the stream_client.py script to start sending the video. 
+
+
+
