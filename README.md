@@ -48,6 +48,12 @@ For example:
     python rc_control_test.py
       
 ```
+     
+If only one com port is available, it will be automatically seleted. If there are more than one available, you will be prompted to select the appropriate one.
+
+
+2. A pygame window should appear. In order to steer with the keyboard, the pygame window must be in the forefront. Only the arrow keys work. You should hear relays clicking when working properly.
+
 #### For linux:
 You must give permissions to the serial ports first. See insturctions below:
  
@@ -56,10 +62,6 @@ Step 1: Determine com port (ls /dev/tty* with USB plugged in; then unplug the US
 
 
 Step 2: Run the following command - "sudo chmod 666 /dev/ttyACM0" (ttyACM0 should be the com port or replace this with whatever your machine responds with)
-     
-If only one com port is available, it will be automatically seleted. If there are more than one available, you will be prompted to select the appropriate one.
-
-2. A pygame window should appear. In order to steer with the keyboard, the pygame window must be in the forefront. Only the arrow keys work. You should hear relays clicking when working properly.
 
 ### Test the video streaming
 
