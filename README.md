@@ -55,13 +55,26 @@ If only one com port is available, it will be automatically seleted. If there ar
 2. A pygame window should appear. In order to steer with the keyboard, the pygame window must be in the forefront. Only the arrow keys work. You should hear relays clicking when working properly.
 
 #### For linux:
-You must give permissions to the serial ports first. See insturctions below:
+You must give permissions to the serial ports first. See instructions below:
  
 
 Step 1: Determine com port (ls /dev/tty* with USB plugged in; then unplug the USB and re-run the code. This will show you which port is turning on and off and that is the port you need to connect to. Most likely it will be /dev/ttyACM0)
 
 
 Step 2: Run the following command - "sudo chmod 666 /dev/ttyACM0" (ttyACM0 should be the com port or replace this with whatever your machine responds with)
+
+#### For Mac:
+In order to send the keyboard inputs to pygame, pygame_sdl2 must be used. Otherwise the keyboard input will be sent to the terminal window.
+
+1. Go to https://github.com/renpy/pygame_sdl2
+2. Clone the project onto your computer
+3. Install the dependencies:
+
+    brew install sdl2 sdl2_gfx sdl2_image sdl2_mixer sdl2_ttf
+    
+4. Build and install the pygame_sdl2 module from within the project directory:
+
+   python setup.py install
 
 ### Test the video streaming
 
