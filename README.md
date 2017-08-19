@@ -80,7 +80,8 @@ In order to send the keyboard inputs to pygame, pygame_sdl2 must be used. Otherw
 
 1. On the PC you want to view the vide on, run the `stream_server_test.py` script in "server-controller/tests" to start listening.
 2. On the Raspberry Pi in the project directory, edit the stream_client.py file to use the IP address of the computer listening for the video connection.
-3. Run the stream_client.py script to start sending the video. 
+3. Run the stream_client.py script to start sending the video.
+4. !!!NOTE!!! Make sure your firewall is turned off. Otherwise will not be able to stream video. (Can make an exception in the firewall)
 
 
 
