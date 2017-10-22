@@ -1,0 +1,30 @@
+To preview video from the raspberry pi:
+
+1. Launch netcat/mplayer on receiving end (e.g. laptop):
+
+	nc -l 2222 | mplayer -fps 30 -demuxer h264es -
+
+2. Launch raspivid/netcat on sending end (raspberry pi):
+
+    raspivid -t 0 -w 1296 -h 972 -fps 30 -hf -o - | nc macbookpro.local 2222
+
+
+To record video from the raspberry pi:
+
+1. Launch netcat/mplayer on receiving end (e.g. laptop) with dump options:
+
+	nc -l 2222 | mplayer -fps 30 -demuxer h264es - -dumpstream -dumpfile stream.mp4
+	
+2. Launch raspivid/netcat on sending end (raspberry pi):
+
+	raspivid -t 0 -w 1296 -h 972 -fps 30 -hf -o - | nc macbookpro.local 2222
+
+
+
+Additional information:
+
+Mplayer:
+https://www.linux.com/news/listening-and-recording-audio-and-video-streams-mplayer
+
+Raspivid:
+https://raspberrypi.stackexchange.com/questions/27082/how-to-stream-raspivid-to-linux-and-osx-using-gstreamer-vlc-or-netcat#27083

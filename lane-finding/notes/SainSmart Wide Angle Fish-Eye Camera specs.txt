@@ -1,0 +1,19 @@
+SainSmart Wide Angle Fish-Eye Camera Lenses for Raspberry Pi Arduino
+
+Omnivision 5647 sensor in a fixed focus module
+The module attaches to Raspberry Pi, by way of a 15 Pin Ribbon Cable, to the dedicated 15-pin MIPI Camera Serial Interface (CSI)
+The CSI bus is capable of extremely high data rates, and it exclusively carries pixel data to the BCM2835 processor
+The sensor itself has a native resolution of 5 megapixel, and has a fixed focus lens onboard
+The camera supports 1080 p @ 30 fps, 720 p @ 60 fps and 640 x480 p 60/90 video recording also it is supported in the latest version of Raspbian, the Raspberry Pi's preferred operating system
+
+Specs:
+
+- Fully Compatible with Both the Model A and Model B Raspberry Pi 
+- 5 MP Omnivision 5647 Camera Module 
+- Still Picture Resolution: 2592 x 1944 
+- Viewing angle: 160 degrees 
+- Camera angle: Size can be replaced 
+- Video: Supports 1080 p @ 30 fps, 720 p @ 60 fps and 640 x480 p 60/90 Recording 15-pin MIPI Camera Serial Interface 
+- Size: Approx. 25 x 24 x 9 mm /0.99 x 0.95 x 0.36 inch
+
+https://www.amazon.com/SainSmart-Fish-Eye-Camera-Raspberry-Arduino/dp/B00N1YJKFS
