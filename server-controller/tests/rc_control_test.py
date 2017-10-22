@@ -2,6 +2,7 @@ __author__ = 'Kamal, Mike, Mochan'
 
 import time
 import serial
+# For Mac terminal support
 try:
     import pygame_sdl2
     pygame_sdl2.import_as_pygame()
