@@ -1,5 +1,17 @@
 # Detroit-Autonomous-Vehicle-Group
 
+## Links
+1. GitHub - https://github.com/Sashulik/Detroit-Autonomous-Vehicle-Group
+2. Meeting Minutes - https://drive.google.com/drive/u/1/folders/0ByL8VeGwxrVoVk5BdDlVeWliRTQ
+3. Parts Info - https://drive.google.com/drive/u/1/folders/0ByL8VeGwxrVoRmlKVHpMVUhsX28
+4. Parts List Gen1Car - https://docs.google.com/spreadsheets/d/16NL_QVh4fbgr2phaQlHn6b5kDd-EuCylbFosMPntZtc/edit#gid=291899112
+5. Resources - https://drive.google.com/drive/u/1/folders/0ByL8VeGwxrVoa3dkTlVENmpaUUk
+6. Schematics Gen1Car - https://drive.google.com/drive/u/1/folders/0ByL8VeGwxrVoSjZkbk5TUTBWUFE
+7. SDCar Project Folder - https://drive.google.com/drive/u/1/folders/0ByL8VeGwxrVoN1I3Mkg3cmRibmc
+8. Share Folder - https://drive.google.com/drive/u/2/folders/0BwMKNnuQFE1MS0hOQnJUM2NZWHc
+9. Slack - https://davg.slack.com/messages
+10. YouTube - https://www.youtube.com/channel/UCF7-v2GGm9OvSbShzEHIauA/videos
+
 ## Steps to add and activate conda environment on your Windows/linux/Mac OS
 
 After you clone/unzip the repo, type the following commands (without the single quotes) in your terminal/command prompt to import and verify the conda environment. Make sure you install miniconda first on your PC. To do that please follow the steps in the link https://conda.io/docs/install/quick.html
