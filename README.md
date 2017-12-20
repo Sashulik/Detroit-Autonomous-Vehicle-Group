@@ -98,7 +98,7 @@ In order to send the keyboard inputs to pygame, pygame_sdl2 must be used. Otherw
 
 ### Movidius Neural Compute Stick
 1. Installation (Supported on RPi3 and Ubuntu 16.04): https://developer.movidius.com/start
-2. YOLO NCS: https://github.com/gudovskiy/yoloNCS.git. Tiny YOLO object detection can be run on an image or webcam device
+2. YOLO NCS: https://github.com/gudovskiy/yoloNCS.git. Tiny YOLO object detection can be run on an image or webcam device.
 
 
 
