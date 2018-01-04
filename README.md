@@ -1,7 +1,7 @@
 # Detroit-Autonomous-Vehicle-Group
 
 ## Links
-1. GitHub - https://github.com/Sashulik/Detroit-Autonomous-Vehicle-Group
+1. Meetup - https://www.meetup.com/Detroit-Autonomous-Vehicle-Meetup
 2. Meeting Minutes - https://drive.google.com/drive/u/1/folders/0ByL8VeGwxrVoVk5BdDlVeWliRTQ
 3. Parts Info - https://drive.google.com/drive/u/1/folders/0ByL8VeGwxrVoRmlKVHpMVUhsX28
 4. Parts List Gen1Car - https://docs.google.com/spreadsheets/d/16NL_QVh4fbgr2phaQlHn6b5kDd-EuCylbFosMPntZtc/edit#gid=291899112
