@@ -19,7 +19,7 @@ This site is designed to maintain software/software related materials pertaining
 12. Slack - https://davg.slack.com/messages
 13. YouTube - https://www.youtube.com/channel/UCF7-v2GGm9OvSbShzEHIauA/videos
 
-'****************************************************************OPTIONAL**************************************************************'
+-------------------------------------------------------------OPTIONAL------------------------------------------------------------------
 
 ## Steps to add and activate conda environment on your Windows/linux/Mac OS
 
