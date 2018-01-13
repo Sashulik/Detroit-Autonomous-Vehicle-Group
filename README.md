@@ -1,5 +1,26 @@
 # Detroit-Autonomous-Vehicle-Group
 
+## About us:
+Welcome to the Detroit Autonomous Vehicle Group GitHub page!
+
+This site is dedicated to maintaining software/software related materials pertaining to projects worked on by the group. We are a group of technology enthusiasts who work on self-driving RC cars in order to apply concepts acquired from the Udacity Nano-Degree Program. In person meetings take place every Saturday in Ferndale, MI. For more information about the group please see links below.
+
+## Links
+1. Facebook Group Page - https://www.facebook.com/groups/416710545345864/ 
+2. Instagram - https://www.instagram.com/detroitautonomousvehiclegroup/
+3. Meetup - https://www.meetup.com/Detroit-Autonomous-Vehicle-Meetup
+5. Meeting Minutes - https://drive.google.com/drive/u/1/folders/0ByL8VeGwxrVoVk5BdDlVeWliRTQ
+6. Parts Info - https://drive.google.com/drive/u/1/folders/0ByL8VeGwxrVoRmlKVHpMVUhsX28
+7. Parts List Gen1Car - https://docs.google.com/spreadsheets/d/16NL_QVh4fbgr2phaQlHn6b5kDd-EuCylbFosMPntZtc/edit#gid=291899112
+8. Resources - https://drive.google.com/drive/u/1/folders/0ByL8VeGwxrVoa3dkTlVENmpaUUk
+9. Schematics Gen1Car - https://drive.google.com/drive/u/1/folders/0ByL8VeGwxrVoSjZkbk5TUTBWUFE
+10. SDCar Project Folder - https://drive.google.com/drive/u/1/folders/0ByL8VeGwxrVoN1I3Mkg3cmRibmc
+11. Share Folder - https://drive.google.com/drive/u/2/folders/0BwMKNnuQFE1MS0hOQnJUM2NZWHc
+12. Slack - https://davg.slack.com/messages
+13. YouTube - https://www.youtube.com/channel/UCF7-v2GGm9OvSbShzEHIauA/videos
+
+-------------------------------------------------------------OPTIONAL-----------------------------------------------------------------
+
 ## Steps to add and activate conda environment on your Windows/linux/Mac OS
 
 After you clone/unzip the repo, type the following commands (without the single quotes) in your terminal/command prompt to import and verify the conda environment. Make sure you install miniconda first on your PC. To do that please follow the steps in the link https://conda.io/docs/install/quick.html
@@ -82,6 +103,12 @@ In order to send the keyboard inputs to pygame, pygame_sdl2 must be used. Otherw
 2. On the Raspberry Pi in the project directory, edit the stream_client.py file to use the IP address of the computer listening for the video connection.
 3. Run the stream_client.py script to start sending the video.
 4. !!!NOTE!!! Make sure your firewall is turned off. Otherwise will not be able to stream video. (Can make an exception in the firewall)
+
+
+### Movidius Neural Compute Stick
+1. Installation (Supported on RPi3 and Ubuntu 16.04): https://developer.movidius.com/start
+2. YOLO NCS: https://github.com/gudovskiy/yoloNCS.git. Tiny YOLO object detection can be run on an image or webcam device.
+
 
 
 
