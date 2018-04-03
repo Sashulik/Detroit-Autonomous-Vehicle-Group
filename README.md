@@ -17,7 +17,8 @@ This site is dedicated to maintaining software/software related materials pertai
 10. SDCar Project Folder - https://drive.google.com/drive/u/1/folders/0ByL8VeGwxrVoN1I3Mkg3cmRibmc
 11. Share Folder - https://drive.google.com/drive/u/2/folders/0BwMKNnuQFE1MS0hOQnJUM2NZWHc
 12. Slack - https://join.slack.com/t/davg/shared_invite/enQtMTk5NDQzNjE3NDYwLWE5MmY4MWU0NDM4OGUwMGNlOWMwMmRiNDc5NTRiNjEwYmEwYzIzZjUwMGE2NzE0Y2ZmZjQxNTZjMDBiNjc2MjM
-13. YouTube - https://www.youtube.com/channel/UCF7-v2GGm9OvSbShzEHIauA/videos
+13. Twitter - https://twitter.com/DAVGtech
+14. YouTube - https://www.youtube.com/channel/UCF7-v2GGm9OvSbShzEHIauA/videos
 
 -------------------------------------------------------------OPTIONAL-----------------------------------------------------------------
 
