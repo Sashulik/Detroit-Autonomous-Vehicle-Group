@@ -8,7 +8,8 @@ This site is dedicated to maintaining software/software related materials pertai
 ## Links
 1. Facebook Group Page - https://www.facebook.com/groups/416710545345864/ 
 2. Instagram - https://www.instagram.com/detroitautonomousvehiclegroup/
-3. Meetup - https://www.meetup.com/Detroit-Autonomous-Vehicle-Meetup
+3. Medium - https://medium.com/@DetroitAutonomousVehicleGroup
+4. Meetup - https://www.meetup.com/Detroit-Autonomous-Vehicle-Meetup
 5. Meeting Minutes - https://drive.google.com/drive/u/1/folders/0ByL8VeGwxrVoVk5BdDlVeWliRTQ
 6. Parts Info - https://drive.google.com/drive/u/1/folders/0ByL8VeGwxrVoRmlKVHpMVUhsX28
 7. Parts List Gen1Car - https://docs.google.com/spreadsheets/d/16NL_QVh4fbgr2phaQlHn6b5kDd-EuCylbFosMPntZtc/edit#gid=291899112
