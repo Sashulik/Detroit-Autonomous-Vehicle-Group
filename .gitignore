@@ -1,1 +1,4 @@
 server-controller/Lenet/dataset/*
+*.pyc
+
+*.pyc

@@ -1,0 +1,8 @@
+- Return array of extracted lines
+- Compile histogram of lines
+  - Figure out how many frames to use (might depend on capture frequency?)
+- Determine where the camera is in relation to the extracted lines
+- Determine if dominant line is necessary for situation with both lines
+- Determine dominant line over time using Histogram
+- Calculate desired path using offset from dominant line (if necessary)
+- Use histogram of lines to seed where to look during next line detection stage
