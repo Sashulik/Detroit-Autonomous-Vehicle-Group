@@ -11,6 +11,7 @@ PID was invented by a US Navy sailor tasked with autonomously steering boats. He
 ## 3. Grab the code from github and put it in the IDE:  <br /> 
 3.1. Go to https://github.com/Sashulik/Detroit-Autonomous-Vehicle-Group/tree/master/02-OpenMV <br />
 3.2. Download file "MVPRacer_Calibration_Red_rev02.py" <br /> 
+3.3. Open file "MVPRacer_Calibration_Red_rev02.py" in OpenMV IDE
 
 ## 4. Run the code on the car:
 4.1. Run it on the car (Ask someone for a quick how to) <br />
