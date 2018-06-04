@@ -10,11 +10,11 @@ PID was invented by a US Navy sailor tasked with autonomously steering boats. He
 
 ## 3. Grab the code from github and put it in the IDE: https://github.com/Sashulik/Detroit-Autonomous-Vehicle-Group/tree/master/02-OpenMV <br /> 
 3.1. Download file "MVPRacer_Calibration_Red_rev02.py" <br /> 
-Run it on the car (Ask someone for a quick how to) <br />
-3.2. Modify the PID (look for !!! in the code) <br />
-3.3. Run it and see how it goes <br />
-3.4. Modify the code by the !!! to make it fail <br />
-3.5. Modify the code so it succeeds but is different the the original values
+3.2. Run it on the car (Ask someone for a quick how to) <br />
+3.3. Modify the PID (look for !!! in the code) <br />
+3.4. Run it and see how it goes <br />
+3.5. Modify the code by the !!! to make it fail <br />
+3.6. Modify the code so it succeeds but is different the the original values
 
 ## 4. Get the car to follow a different color line (see if can figure it out on your own or ask)
 
