@@ -14,7 +14,7 @@ PID was invented by a US Navy sailor tasked with autonomously steering boats. He
 3.3. Open file "MVPRacer_Calibration_Red_rev02.py" in OpenMV IDE
 
 ## 4. Run the code on the car:
-4.1. Run it on the car (Ask someone for a quick how to) <br />
+4.1. Run it on the car (Ask someone for a quick how to if have trouble) <br />
 4.2. Modify the PID (look for !!! in the code) <br />
 4.3. Run it and see how it goes <br />
 4.4. Modify the code by the !!! to make it fail <br />
