@@ -1,4 +1,4 @@
-# How To Run Gen3Car 'Cyclops" (OpenMV Car)
+# How To Run Gen3Car 'Cyclops' (OpenMV Car)
 
 ## 1. Intro to control algorithms
 https://www.youtube.com/watch?v=4Y7zG48uHRo
