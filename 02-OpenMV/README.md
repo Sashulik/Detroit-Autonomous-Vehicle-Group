@@ -5,10 +5,10 @@ https://www.youtube.com/watch?v=4Y7zG48uHRo <br />
 Note: The same concepts apply to controlling anything, not just cars: Robots, airplanes, etc
 PID was invented by a US Navy sailor tasked with autonomously steering boats. He derived the P, I and D terms by watching helmsman steer boats. His 1922 system was better than the sailors, but was not implemented due to resistance from sailors.
 
-## 2. Install the IDE
+## 2. Install the latest OpenMV IDE
 2.1. Link: https://openmv.io/pages/download 
 
-## 3. Grab the code from GitHub and open it in the IDE:  <br /> 
+## 3. Grab the code from GitHub and open it in the OpenMV IDE:  <br /> 
 3.1. Go to https://github.com/Sashulik/Detroit-Autonomous-Vehicle-Group/tree/master/02-OpenMV <br />
 3.2. Download the latest .py file <br /> 
 3.3. Open the downloaded file in OpenMV IDE
