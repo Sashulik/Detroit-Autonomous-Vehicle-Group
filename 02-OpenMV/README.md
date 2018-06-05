@@ -8,12 +8,12 @@ PID was invented by a US Navy sailor tasked with autonomously steering boats. He
 ## 2. Install the latest OpenMV IDE
 2.1. Link: https://openmv.io/pages/download 
 
-## 3. Grab the code from GitHub and open it in the OpenMV IDE:  <br /> 
+## 3. Grab the code from GitHub and open it in the OpenMV IDE 
 3.1. Go to https://github.com/Sashulik/Detroit-Autonomous-Vehicle-Group/tree/master/02-OpenMV <br />
 3.2. Download the latest .py file <br /> 
 3.3. Open the downloaded file in OpenMV IDE
 
-## 4. Run the code on the car:
+## 4. Run the code on the car
 4.1. Run it on the car (Ask someone for a quick how to if have trouble) <br />
 4.2. Modify the PID (look for !!! in the code) <br />
 4.3. Run it and see how it goes <br />
@@ -22,7 +22,7 @@ PID was invented by a US Navy sailor tasked with autonomously steering boats. He
 
 ## 5. Get the car to follow a different color line (see if can figure it out on your own or ask)
 
-## 6. Optimize for faster lap time <br />
+## 6. Optimize for faster lap time
 6.1. Switch to inside color <br />
 6.2. Increase car speed <br />
 6.3. Tune the PID
