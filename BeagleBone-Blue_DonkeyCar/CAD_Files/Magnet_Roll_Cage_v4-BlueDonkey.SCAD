@@ -49,7 +49,7 @@ W_ArmTop = 13;
 L_ShoulderBottomInner = 10.2;
 L_ShoulderTopInner = 10.2;
 H_ShoulderFront = 36;
-H_ShoulderBack = 33;
+H_ShoulderBack = 33.6;
 W_Shoulder_Offset = 20;
 
 // - Wide and Narrow Faces, Camera Mounts
@@ -566,10 +566,10 @@ module handleHoles() {
         mirror([0,0,1]) rightArmSideHoles(55);
         */
         
-        spineHole(0, H_SpineBottom_Offset + 4.45, H_SpineBack + 3.7);
-        spineHole(-20, H_SpineBottom_Offset + 6.1, H_SpineBack + 6.1);
-        spineHole(-40, H_SpineBottom_Offset + 7.8, H_SpineBack + 8.5);
-        spineHole(-60, H_SpineBottom_Offset + 9.5, H_SpineBack + 11);
+        spineHole(0, H_SpineBottom_Offset + 4.45, H_SpineBack + 3.8);
+        spineHole(-20, H_SpineBottom_Offset + 6.1, H_SpineBack + 6.35);
+        spineHole(-40, H_SpineBottom_Offset + 7.8, H_SpineBack + 8.85);
+        spineHole(-60, H_SpineBottom_Offset + 9.5, H_SpineBack + 11.4);
     }
 }
 
