@@ -15,7 +15,11 @@ B_ShowOriginal = 0; // 1 = True, 0 = False
 X_GlobalTranslate = 0;
 Y_GlobalTranslate = 0;
 Z_GlobalTranslate = 0;
+
 //Z_GlobalTranslate = -50 - W_Base;
+
+// For printing
+B_RotateForPrinting = 1; // 1 = True, 0 = False
 
 Color_Arm = "SteelBlue";
 Color_Shoulder = "SteelBlue";
@@ -276,9 +280,18 @@ if (B_ShowOriginal == 1) {
 }
 
 module print_part() {
-    difference() {
-        handle();
-        handleHoles();
+    if (B_RotateForPrinting == 1) {
+        translate([20, 0, 84.9])
+        rotate([270,12,0])
+        difference() {
+            handle();
+            handleHoles();
+        }
+    } else {
+        difference() {
+            handle();
+            handleHoles();
+        }
     }
 }
 
