@@ -15,8 +15,10 @@ class BirdsEyeTransform():
 
         d_t_y = int(h*0.2)
         d_b_y = int(h-1)
-        d_l_x = int(0.15 * w * 1.1)
-        d_r_x = int(0.85 * w * 0.9)
+        #d_l_x = int(0.15 * w * 1.1)
+        #d_r_x = int(0.85 * w * 0.9)
+        d_l_x = int(0.25 * w)
+        d_r_x = int(0.75 * w)
 
         # Reference source points for the perspective transform
         #                          TL             TR             BR             BL
