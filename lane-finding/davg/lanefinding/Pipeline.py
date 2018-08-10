@@ -73,7 +73,7 @@ class Pipeline():
         rightx_current = rightx_base
 
         # Set the width of the windows +/- margin
-        margin = 120
+        margin = 100
 
         # Set minimum number of pixels found to recenter window
         minpix = 40
@@ -273,7 +273,7 @@ class Pipeline():
         return True
 
     @staticmethod
-    def find_line_indices_using_sliding_windows(binary_warped, nonzerox, nonzeroy, margin=120):
+    def find_line_indices_using_sliding_windows(binary_warped, nonzerox, nonzeroy, margin=100):
         '''
         Define the line finding algorithms using the Line class, do some predictive
         assumptions, check sanity of findings, fallback if necessary
@@ -353,7 +353,7 @@ class Pipeline():
         points = np.rint(np.vstack([x,y]).T).astype(int)
         cv2.polylines(img, [points], False, color, thickness)
 
-    def find_lane_lines(self, binary_warped, margin=120, method='sliding_windows',
+    def find_lane_lines(self, binary_warped, margin=100, method='sliding_windows',
                         prev_left_line=None, prev_right_line=None, produce_out_img=True):
 
         # This code was adapted from the Udacity 'Finding the Lines' section of the
@@ -635,7 +635,7 @@ class Pipeline():
         binary_warped = self.get_birdseye_binary_warped(img, undistort=False)
 
         # Set the width of the windows +/- margin
-        margin = 120
+        margin = 100
 
         if ((left_line == None) or (right_line == None)):
             left_line, right_line, out_img = self.find_lane_lines(binary_warped, margin=margin, method='sliding_windows')
@@ -695,7 +695,7 @@ class Pipeline():
         binary_warped[lumsat_binary == 1] = 1
 
         # Set the width of the windows +/- margin
-        margin = 120
+        margin = 100
 
         if ((left_line == None) or (right_line == None)):
             left_line, right_line, out_img = self.find_lane_lines(binary_warped, margin=margin, method='sliding_windows')
@@ -726,7 +726,7 @@ class Pipeline():
         binary_warped = self.get_birdseye_binary_warped(img, undistort=False)
 
         # Set the width of the windows +/- margin
-        margin = 120
+        margin = 100
 
         if ((left_line == None) or (right_line == None)):
             left_line, right_line, out_img = self.find_lane_lines(binary_warped, margin=margin, method='sliding_windows', produce_out_img=False)
