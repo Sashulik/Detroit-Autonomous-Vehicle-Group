@@ -1,7 +1,7 @@
 # Detroit-Autonomous-Vehicle-Group
 
 ## About us:
-Welcome to the Detroit Autonomous Vehicle Group GitHub page!
+Welcome to the Detroit Autonomous Vehicle Group GitHub page! We are a group of technology enthusiasts in Detroit, Michigan working on democratizing technology.
 
 This site is dedicated to maintaining software/software related materials pertaining to projects worked on by the group. We are a group of technology enthusiasts who work on self-driving RC cars in order to apply concepts acquired from the Udacity Nano-Degree Program. In person meetings take place every Saturday in Ferndale, MI. For more information about the group please see links below.
 
