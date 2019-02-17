@@ -10,16 +10,9 @@ This site is dedicated to maintaining software/software related materials pertai
 2. Instagram - https://www.instagram.com/detroitautonomousvehiclegroup/
 3. Medium - https://medium.com/@DetroitAutonomousVehicleGroup
 4. Meetup - https://www.meetup.com/Detroit-Autonomous-Vehicle-Meetup
-5. Meeting Minutes - https://drive.google.com/drive/u/1/folders/0ByL8VeGwxrVoVk5BdDlVeWliRTQ
-6. Parts Info - https://drive.google.com/drive/u/1/folders/0ByL8VeGwxrVoRmlKVHpMVUhsX28
-7. Parts List Gen1Car - https://docs.google.com/spreadsheets/d/16NL_QVh4fbgr2phaQlHn6b5kDd-EuCylbFosMPntZtc/edit#gid=291899112
-8. Resources - https://drive.google.com/drive/u/1/folders/0ByL8VeGwxrVoa3dkTlVENmpaUUk
-9. Schematics Gen1Car - https://drive.google.com/drive/u/1/folders/0ByL8VeGwxrVoSjZkbk5TUTBWUFE
-10. SDCar Project Folder - https://drive.google.com/drive/u/1/folders/0ByL8VeGwxrVoN1I3Mkg3cmRibmc
-11. Share Folder - https://drive.google.com/drive/u/2/folders/0BwMKNnuQFE1MS0hOQnJUM2NZWHc
-12. Slack - https://join.slack.com/t/davg/shared_invite/enQtMTk5NDQzNjE3NDYwLWE5MmY4MWU0NDM4OGUwMGNlOWMwMmRiNDc5NTRiNjEwYmEwYzIzZjUwMGE2NzE0Y2ZmZjQxNTZjMDBiNjc2MjM
-13. Twitter - https://twitter.com/DAVGtech
-14. YouTube - https://www.youtube.com/channel/UCF7-v2GGm9OvSbShzEHIauA/videos
+5. Slack - https://join.slack.com/t/davg/shared_invite/enQtMTk5NDQzNjE3NDYwLWE5MmY4MWU0NDM4OGUwMGNlOWMwMmRiNDc5NTRiNjEwYmEwYzIzZjUwMGE2NzE0Y2ZmZjQxNTZjMDBiNjc2MjM
+6. Twitter - https://twitter.com/DAVGtech
+7. YouTube - https://www.youtube.com/channel/UCF7-v2GGm9OvSbShzEHIauA/videos
 
 -------------------------------------------------------------OPTIONAL-----------------------------------------------------------------
 
