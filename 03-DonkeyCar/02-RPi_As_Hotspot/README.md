@@ -33,7 +33,8 @@ Host  mycar
 ```
 The user ```pi```'s password is ```RaspberryPi```.
 
-Here is the private key, to be stored in ```~/.ssh/id_mycar```:
+Here is the private key (This private SSH key is not encrypted. So DO NOT use it for
+anything else but the donkey car.) to be stored in ```~/.ssh/id_mycar```:
 ```
 -----BEGIN RSA PRIVATE KEY-----
 MIIEpAIBAAKCAQEAq7niQPKeCRrEugeDM1IHAHMdYPF0XFbcly8le6Lb6dR7U22s
@@ -72,6 +73,9 @@ two lines and change the values to what you like:
 ssid=LXLCar
 wpa_passphrase=A2AutonomousVehicle
 ```
+The ```channel=1``` may be changed to select a different channel for the Wi-Fi radio.
+Only set it to 1, 6 or 11. A value of 0 (zero) or ```acs_survey``` for automatic
+channel selection, but that is not tested.
 
 The ```/etc/hostname``` file may also be changed to set the hostname in Linux.
 
