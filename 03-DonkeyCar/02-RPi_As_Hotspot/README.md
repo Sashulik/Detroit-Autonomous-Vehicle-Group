@@ -7,7 +7,7 @@ to connect to the car to control it.
 ## A Donkey 2.5.8 Based Image
 
 A [Donkey release 2.5.8](https://github.com/autorope/donkeycar/releases) based
-[image](https://drive.google.com/open?id=1PilLO1pO8E0svKNTesbsRzfwsOkGkmfx) is created to accelerate
-deployment.
+[image](https://drive.google.com/open?id=1PilLO1pO8E0svKNTesbsRzfwsOkGkmfx) (⇐Click to download from Google Drive)
+is created to accelerate deployment.
 
 (...to be continues...)
