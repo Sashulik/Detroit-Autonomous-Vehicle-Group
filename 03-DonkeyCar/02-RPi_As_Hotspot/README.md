@@ -29,7 +29,9 @@ I used openssh, and here is my configuration for connecting to the car in ```~/.
 Host  mycar
       Hostname 192.168.89.1
       Identity ~/.ssh/id_mycar
+      User pi
 ```
+The user ```pi```'s password is ```RaspberryPi```.
 
 Here is the private key, to be stored in ```~/.ssh/id_mycar```:
 ```
