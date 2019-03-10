@@ -79,4 +79,6 @@ channel selection, but that is not tested.
 
 The ```/etc/hostname``` file may also be changed to set the hostname in Linux.
 
+[click here for additional notes] (https://docs.google.com/document/d/1TUPIEsZYBRyf9i776SgNfdE3KEPy6lwladEtxpiqFZQ/edit)
+
 (...to be continues...)
