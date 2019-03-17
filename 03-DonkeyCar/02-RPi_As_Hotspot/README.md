@@ -28,7 +28,7 @@ I used openssh, and here is my configuration for connecting to the car in ```~/.
 ```
 Host  mycar
       Hostname 192.168.89.1
-      Identity ~/.ssh/id_mycar
+      IdentityFile ~/.ssh/id_mycar
       User pi
 ```
 The user ```pi```'s password is ```RaspberryPi```.
@@ -65,6 +65,28 @@ B5kzjuhaRwkRTWWVOA0j4HMcs3XYLp/EU8d1d/JBwWDhF3LNNZKuwxymQKVe8ZeL
 -----END RSA PRIVATE KEY-----
 ```
 
+### Using tmux
+
+Most of the work described in this document are done in the Linux terminal. Most of the programs
+run this way would stop running if the terminal session is ended. To keep a program running, even
+in the case of an accidental drop of SSH connection, for example, programs such as ```screen```
+and ```tmux``` can help.
+
+To use ```tmux```, simply enter the command before any other command.
+
+To check for previous ```tmux``` session:
+```
+$ tmux list-sessions
+0: 5 windows (created Sun Mar  3 22:40:14 2019) [189x64] (attached)
+```
+
+To attach to a session:
+```
+$ tmux attach-session
+```
+
+When inside ```tmux```, use the key combination ```ctrl-B d``` to detach from the session.
+
 ## Changing the Name of the Car
 
 Once SSH'ed into the car, edit the ```/etc/hostap/hostap.conf``` file by finding the
@@ -79,6 +101,39 @@ channel selection, but that is not tested.
 
 The ```/etc/hostname``` file may also be changed to set the hostname in Linux.
 
-[click here for more in depth notes](https://docs.google.com/document/d/1TUPIEsZYBRyf9i776SgNfdE3KEPy6lwladEtxpiqFZQ/edit)
+## Calibration
 
-(...to be continues...)
+Three things need to be done to calibrate the car.
+
+First, find out how the car is wired. two channels are defined in the ```mycar/config.py``` file:
+
+```
+STEERING_CHANNEL = 1
+THROTTLE_CHANNEL = 0
+```
+
+That may or may not match the wiring of your car's servo and motor control.
+
+To find out which channel controls steering, for example, calibrate it by:
+```
+$ donkey calibrate --channel 1
+```
+
+If it turns our that channel 1 in fact does not control steering, it may be fixed either by
+switching the wire connections on the PWM module, or by editing the configuration file.
+
+## Driving
+
+To start driving, run:
+```shell
+$ cd ~/mycar
+$ ./manage.py drive
+```
+
+After that, go to http://192.168.89.1:8887 to access the donkey car control.
+
+## Issues
+
+Please [report any issue here in github](https://github.com/Sashulik/Detroit-Autonomous-Vehicle-Group/issues).
+
+[click here for more in depth notes](https://docs.google.com/document/d/1TUPIEsZYBRyf9i776SgNfdE3KEPy6lwladEtxpiqFZQ/edit)
