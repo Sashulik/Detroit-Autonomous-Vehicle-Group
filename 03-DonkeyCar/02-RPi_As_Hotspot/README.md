@@ -134,6 +134,6 @@ After that, go to http://192.168.89.1:8887 to access the donkey car control.
 
 ## Issues
 
-Please [report any issue here in hithub](/Sashulik/Detroit-Autonomous-Vehicle-Group/issues).
+Please [report any issue here in github](/Sashulik/Detroit-Autonomous-Vehicle-Group/issues).
 
 [click here for more in depth notes](https://docs.google.com/document/d/1TUPIEsZYBRyf9i776SgNfdE3KEPy6lwladEtxpiqFZQ/edit)
