@@ -14,6 +14,13 @@ The image is downloaded as a 1.3GB .zip compressed file. It unzips into a 3GB .i
 -- Ignore that discrepency for now, it will be fixed later. The .img file may be used to burn a 32GB SD card using any
 SD writing tool, such as [etcher](https://www.balena.io/etcher/).
 
+### Expanding the root partition
+
+Install the SD card on the Raspberry Pi 3, run ```sudo raspi-config``` to expand the root file system partition to use
+the entire card.
+
+Find [more details here](http://cagewebdev.com/raspberry-pi-expanding-the-root-partition-of-the-sd-card/).
+
 ## Connecting to the Car with Wi-Fi
 
 Once the RPi3 on the car is started, a new Wi-Fi access point should show up on any 802.11b/g/n device,
