@@ -10,7 +10,7 @@ This site is dedicated to maintaining software/software related materials pertai
 2. Instagram - https://www.instagram.com/detroitautonomousvehiclegroup/
 3. Medium - https://medium.com/@DetroitAutonomousVehicleGroup
 4. Meetup - https://www.meetup.com/Detroit-Autonomous-Vehicle-Meetup
-5. Slack - https://join.slack.com/t/davg/shared_invite/enQtMTk5NDQzNjE3NDYwLWE5MmY4MWU0NDM4OGUwMGNlOWMwMmRiNDc5NTRiNjEwYmEwYzIzZjUwMGE2NzE0Y2ZmZjQxNTZjMDBiNjc2MjM
+5. Slack - https://join.slack.com/t/davg/shared_invite/zt-d6oyglqd-Zq2WlcRZbv21di3N9xK3TA
 6. Twitter - https://twitter.com/DAVGtech
 7. YouTube - https://www.youtube.com/channel/UCF7-v2GGm9OvSbShzEHIauA/videos
 
