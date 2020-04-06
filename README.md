@@ -6,13 +6,14 @@ Welcome to the Detroit Autonomous Vehicle Group GitHub page where we are democra
 This site is dedicated to maintaining software/software related materials pertaining to projects worked on by the group. We are a group of technology enthusiasts who work on self-driving RC cars in order to apply concepts acquired from the Udacity Nano-Degree Program. In person meetings take place every Saturday in Ferndale, MI. For more information about the group please see links below.
 
 ## Links
-1. Facebook Group Page - https://www.facebook.com/groups/416710545345864/ 
-2. Instagram - https://www.instagram.com/detroitautonomousvehiclegroup/
-3. Medium - https://medium.com/@DetroitAutonomousVehicleGroup
-4. Meetup - https://www.meetup.com/Detroit-Autonomous-Vehicle-Meetup
-5. Slack - https://join.slack.com/t/davg/shared_invite/zt-d6oyglqd-Zq2WlcRZbv21di3N9xK3TA
-6. Twitter - https://twitter.com/DAVGtech
-7. YouTube - https://www.youtube.com/channel/UCF7-v2GGm9OvSbShzEHIauA/videos
+1. Discord - https://discord.gg/SNubP49
+2. Facebook Group Page - https://www.facebook.com/groups/416710545345864/ 
+3. Instagram - https://www.instagram.com/detroitautonomousvehiclegroup/
+4. Medium - https://medium.com/@DetroitAutonomousVehicleGroup
+5. Meetup - https://www.meetup.com/Detroit-Autonomous-Vehicle-Meetup
+6. Slack - https://join.slack.com/t/davg/shared_invite/zt-d6oyglqd-Zq2WlcRZbv21di3N9xK3TA
+7. Twitter - https://twitter.com/DAVGtech
+8. YouTube - https://www.youtube.com/channel/UCF7-v2GGm9OvSbShzEHIauA/videos
 
 -------------------------------------------------------------OPTIONAL-----------------------------------------------------------------
 
